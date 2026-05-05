@@ -159,12 +159,6 @@ export default function LoginPage() {
               sx={{ mb: 3 }}
             />
 
-            <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mb: 4 }}>
-              <Typography variant="body2" color="primary" sx={{ cursor: 'pointer', fontWeight: 600 }}>
-                Forgot password?
-              </Typography>
-            </Box>
-
             <Button
               fullWidth
               type="submit"
