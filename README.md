@@ -56,7 +56,3 @@ The app implements a custom caching strategy within the Zustand store:
   - **Reduces Latency**: When a user navigates back to a previous page or clears a search, the data is instantly available without a network request.
   - **Reduces API Load**: Minimizes redundant calls to the backend.
   - **Improved UX**: Provides a smoother, more "app-like" experience with immediate transitions.
-
----
-
-Built as part of an assessment requirement.
