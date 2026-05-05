@@ -27,7 +27,7 @@ A production-quality admin dashboard built with Next.js, Material UI, Zustand, a
    Create a `.env.local` file in the root directory:
    ```env
    NEXTAUTH_URL=http://localhost:3000
-   NEXTAUTH_SECRET=your_secret_here
+   NEXTAUTH_SECRET=supersecretsecret
    ```
 4. **Run the development server**
    ```bash
