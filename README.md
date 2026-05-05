@@ -19,6 +19,9 @@ A production-quality admin dashboard built with Next.js, Material UI, Zustand, a
 ## Setup & Installation
 
 1. **Clone the repository**
+   ```bash
+   git clone https://github.com/TitanXS75/VC-task.git
+   ```   
 2. **Install dependencies**
    ```bash
    pnpm install
@@ -29,7 +32,7 @@ A production-quality admin dashboard built with Next.js, Material UI, Zustand, a
    NEXTAUTH_URL=http://localhost:3000
    NEXTAUTH_SECRET=supersecretsecret
    ```
-4. **Run the development server**
+5. **Run the development server**
    ```bash
    npm run dev
    # or
