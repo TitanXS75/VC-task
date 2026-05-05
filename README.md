@@ -37,8 +37,8 @@ A production-quality admin dashboard built with Next.js, Material UI, Zustand, a
    ```
 
 ## Test Credentials
-- **Username**: `Venture Capital`
-- **Password**: `VC@Indeed`
+- **Username**: `Venture Builders`
+- **Password**: `VB@VentureBuilders`
 
 ## Why Zustand?
 Zustand was chosen for this project for several reasons:

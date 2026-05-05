@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "admin dashboard",
   description: "Production-quality admin dashboard app",
   icons: {
-    icon: "/vc image.png",
+    icon: "/vb-image.png",
   },
 };
 

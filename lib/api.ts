@@ -12,14 +12,14 @@ const api = axios.create({
 // Auth API
 export const loginApi = async (credentials: any) => {
   // Support for custom credentials requested by the user
-  if (credentials.username === 'Venture Capital' && credentials.password === 'VC@Indeed') {
+  if (credentials.username === 'Venture Builders' && credentials.password === 'VB@VentureBuilders') {
     return {
       id: 999,
-      username: 'Venture Capital',
+      username: 'Venture Builders',
       firstName: 'Venture',
-      lastName: 'Capital',
-      email: 'admin@indeed.com',
-      image: 'https://robohash.org/VentureCapital.png?set=set4',
+      lastName: 'Builders',
+      email: 'admin@venturebuilders.com',
+      image: 'https://robohash.org/VentureBuilders.png?set=set4',
       accessToken: 'mock-jwt-token-for-demo',
     };
   }

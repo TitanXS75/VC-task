@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "VC admin",
-  description: "Login to VC Admin Dashboard",
+  title: "VB admin",
+  description: "Login to VB Admin Dashboard",
 };
 
 export default function LoginLayout({

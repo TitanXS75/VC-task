@@ -48,7 +48,7 @@ export default function LoginPage() {
       });
 
       if (result?.error) {
-        setError('Invalid credentials. Use Venture Capital / VC@Indeed');
+        setError('Invalid credentials. Use Venture Builders / VB@VentureBuilders');
         setLoading(false);
       }
     } catch (err) {
@@ -76,11 +76,11 @@ export default function LoginPage() {
         }}
       >
         <Typography variant="h2" sx={{ fontWeight: 'bold', mb: 3, letterSpacing: -1 }}>
-          VC <br /> Admin Login
+          VB <br /> Admin Login
         </Typography>
         <Divider sx={{ width: 100, bgcolor: 'primary.main', height: 4, mb: 4, borderRadius: 2 }} />
         <Typography variant="h5" sx={{ maxWidth: 500, fontWeight: 300, lineHeight: 1.6, opacity: 0.9 }}>
-          The complete production-quality management dashboard for Venture Capital firms.
+          The complete production-quality management dashboard for Venture Builders.
         </Typography>
 
         <Stack direction="row" spacing={4} sx={{ mt: 8 }}>
@@ -185,7 +185,7 @@ export default function LoginPage() {
 
           <Box sx={{ mt: 6, textAlign: 'center' }}>
             <Typography variant="body2" color="text.secondary">
-              Use: <Typography component="span" variant="body2" sx={{ fontWeight: 'bold', color: 'primary.main' }}>Venture Capital / VC@Indeed</Typography>
+              Use: <Typography component="span" variant="body2" sx={{ fontWeight: 'bold', color: 'primary.main' }}>Venture Builders / VB@VentureBuilders</Typography>
             </Typography>
           </Box>
         </Paper>
